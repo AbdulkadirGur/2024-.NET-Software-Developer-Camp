@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdulkadir\\Desktop\\NET_Developer\\2024-.NET-Yazilim-Gelistirici-Yetistirme-Kampi\\Intro\\Intro.csproj",
+      "projectUniqueName": "C:\\Users\\Abdulkadir\\Desktop\\NET_Developer\\2024-.NET-Software-Developer-Camp\\Intro\\Intro.csproj",
       "projectName": "Intro",
-      "projectPath": "C:\\Users\\Abdulkadir\\Desktop\\NET_Developer\\2024-.NET-Yazilim-Gelistirici-Yetistirme-Kampi\\Intro\\Intro.csproj",
+      "projectPath": "C:\\Users\\Abdulkadir\\Desktop\\NET_Developer\\2024-.NET-Software-Developer-Camp\\Intro\\Intro.csproj",
       "packagesPath": "C:\\Users\\Abdulkadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdulkadir\\Desktop\\NET_Developer\\2024-.NET-Yazilim-Gelistirici-Yetistirme-Kampi\\Intro\\obj\\",
+      "outputPath": "C:\\Users\\Abdulkadir\\Desktop\\NET_Developer\\2024-.NET-Software-Developer-Camp\\Intro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Abdulkadir\\AppData\\Roaming\\NuGet\\NuGet.Config",

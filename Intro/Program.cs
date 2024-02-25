@@ -93,5 +93,5 @@ BaseCustomer[] customers = { customer1, customer2, customer3, customer4 };
 foreach (BaseCustomer customer in customers)
 {
     
-    Console.WriteLine(customer.CustomerNumber);
+    Console.WriteLine(customer. );
 }
