@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace Intro.DataAccess.Conctretes
 {
-    public  class CourseDal :ICourseDal
+    public class DapperCourseDal : ICourseDal
     {
         List<Course> courses;
 
-        public CourseDal()
+        public DapperCourseDal()
         {
             Course course1 = new Course();
             course1.Id = 1;
-            course1.Name = "C#";
+            course1.Name = "R";
             course1.Description = ".NET 8 vs...";
             course1.Price = 0;
 
@@ -32,8 +32,8 @@ namespace Intro.DataAccess.Conctretes
             course3.Description = "Python 3.12...";
             course3.Price = 20;
 
-            courses = new List<Course> { course1,course2,course3};
-           
+            courses = new List<Course> { course1, course2, course3 };
+
         }
 
         public List<Course> GetAll()
@@ -50,3 +50,5 @@ namespace Intro.DataAccess.Conctretes
         }
     }
 }
+
+

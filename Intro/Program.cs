@@ -1,5 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using Intro.Business;
+using Intro.DataAccess.Conctretes;
 using Intro.Entities;
 
 Console.WriteLine("Hello, World!");
@@ -34,9 +35,10 @@ for (int i = 0; i < loans.Length; i++)
 
 
 
-CourseManager courseManager = new();
-Course[] courses2 = courseManager.GetAll();
-for (int i = 0; i < courses2.Length; i++)
+CourseManager courseManager = new(new DapperCourseDal());
+
+List<Course> courses2 = courseManager.GetAll();
+for (int i = 0; i < courses2.Count; i++)
 {
     Console.WriteLine(courses2[i].Name + " / " + courses2[i].Price);
 }
@@ -93,5 +95,5 @@ BaseCustomer[] customers = { customer1, customer2, customer3, customer4 };
 foreach (BaseCustomer customer in customers)
 {
     
-    Console.WriteLine(customer. );
+    Console.WriteLine(customer);
 }

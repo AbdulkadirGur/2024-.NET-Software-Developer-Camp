@@ -10,9 +10,17 @@ namespace Intro.Business;
 
 public class CourseManager
 {
+    //dependency injection
+    private readonly CourseDal _courseDal;
     
-    public List<Course> GetAll()
+
+    public CourseManager(CourseDal courseDal)
     {
+        _courseDal = courseDal;
+    }
+
+    public List<Course> GetAll()
+    {       
         // Business Rules
         CourseDal courseDal = new CourseDal();
         return courseDal.GetAll();
